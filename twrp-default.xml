@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="TeamWin"
-            fetch="https://github.com/TeamWin"
-            review="https://gerrit.twrp.me"/>
+    <remote name="beam232001"
+            fetch="https://github.com/beam232001"
+            review=""/>
 
     <remote name="LineageOS"
             fetch="https://github.com/LineageOS"
@@ -38,7 +38,7 @@
     <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
 
     <!-- TWRP lives in TeamWin repo -->
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-12.1"/>
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="beam232001" revision="android-12.1"/>
 
     <!-- Use TeamWin repos for full recovery compatibility -->
     <project path="build/make" name="android_build" remote="TeamWin" revision="android-12.1" groups="pdk">
