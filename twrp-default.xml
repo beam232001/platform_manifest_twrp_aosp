@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remote name="TeamWin"
+            fetch="https://github.com/TeamWin"
+            review="https://gerrit.twrp.me"/>
+    
     <remote name="beam232001"
             fetch="https://github.com/beam232001"
             review=""/>
